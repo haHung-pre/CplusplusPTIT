@@ -44,16 +44,11 @@ void sapxep(NhanVien ds[],int N){
 	sort(ds,ds+N,cmp);
 }
 int main(){
-	NhanVien ds[100];
-	int n;
-	cin>>n;
-	for(int i=0;i<n;i++){
-		cin>>ds[i];
-	}
-	sapxep(ds,n);
-	for(int i=0;i<n;i++){
-		cout<<ds[i];
-	}
+    NhanVien ds[50];
+    int N,i;
+    cin >> N;
+    for(i=0;i<N;i++) cin >> ds[i];
+    sapxep(ds, N);
+    for(i=0;i<N;i++) cout << ds[i];
+    return 0;
 }
-
-
