@@ -5,7 +5,6 @@ class NhanVien{
 	public:
 		string mnv,ten,gtinh,nsinh,dchi,msthue,ngay;
 		int d,m,y;
-	public:
 		friend istream& operator >> (istream& in,NhanVien &a);
 		friend ostream& operator << (ostream& out,NhanVien a);
 };
