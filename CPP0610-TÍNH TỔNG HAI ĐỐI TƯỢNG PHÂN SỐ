@@ -29,7 +29,7 @@ ostream& operator << (ostream& out,PhanSo a){
 	return out;
 }
 PhanSo PhanSo::operator + (PhanSo a){
-	PhanSo tong(5,6);
+	PhanSo tong(1,1);
 	tong.tu=a.tu*mau+tu*a.mau;
 	tong.mau=a.mau*mau;
 	tong.rutgon();
